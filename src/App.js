@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import ShoppingList from './components/ShoppingList'
+import ConsoleLoggingButton from './components/InteractiveComponent';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           Learn React
         </a>
         <ShoppingList name="Shannon" />
+        <ConsoleLoggingButton name="Click Me!" />
       </header>
     </div>
   );
